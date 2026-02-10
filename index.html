@@ -15,14 +15,34 @@
             margin: auto;
         }
 
-        h1,
-        h2,
-        h3 {
+        h1, h2, h3 {
             color: #cfcfff;
         }
 
         a {
             color: #89b4ff;
+        }
+
+        .links {
+            margin-top: 10px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 12px;
+        }
+
+        .note {
+            background: #1a1540;
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin: 18px 0 28px;
+            border-left: 4px solid #6b4ce6;
+            color: #89b4ff;
+        }
+
+        .note strong {
+            color: #cfcfff;
         }
     </style>
 </head>
@@ -31,69 +51,65 @@
 <h1>Budgextra — Support</h1>
 
 <p>
-    If you need help with Budgextra, including bills, expenses, income tracking, CloudKit sync,
-    or any other issue, you can contact support directly at:<br>
-    <strong>Email:</strong>
-    <a href="mailto:ferrraridave@icloud.com">ferrraridave@icloud.com</a>
+    If you need help with Budgextra — including bills, expenses, income tracking, iCloud sync, Face ID,
+    or any other issue — you can contact support directly at:<br>
+    <strong>Email:</strong> <a href="mailto:ferrraridave@icloud.com">ferrraridave@icloud.com</a>
 </p>
 
-<p>
-    Useful links:<br>
-    - <a href="privacy-policy.html">Privacy Policy</a><br>
-    - <a href="terms.html">Terms of Use</a>
-</p>
+<div class="links">
+    <strong>Useful links:</strong><br>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+</div>
+
+<div class="note">
+    <strong>Quick privacy summary:</strong> Your data is stored locally on your device. iCloud sync (CloudKit) is enabled by default
+    (if you are signed in to iCloud), and you can turn it off at any time in Settings.
+</div>
 
 <h2>Frequently Asked Questions</h2>
 
 <h3>What is Budgextra?</h3>
-
 <p>
-    Budgextra is a privacy-focused budgeting app for iPhone, iPad & Mac. It helps you track monthly bills,
-    expenses, and income with a clean, intuitive interface. Your data is stored locally on your
-    device and optionally synced and backed up across your devices using Apple's iCloud (CloudKit).
+    Budgextra is a privacy-focused budgeting app for iPhone and iPad. It helps you track monthly bills,
+    expenses, and income with a clean, intuitive interface. Your data is stored locally on your device and,
+    if iCloud sync is enabled, it can also sync and back up across your devices using Apple’s iCloud (CloudKit).
 </p>
 
 <h3>Do I need an account?</h3>
-
 <p>
-    No account is required. Budgextra works entirely on your device. iCloud sync is enabled by
-    default — if you are signed in to iCloud, your data will automatically sync and back up
-    across your Apple devices using CloudKit. You can disable iCloud sync at any time in Settings
-    if you prefer to keep your data on-device only. No separate login or registration is needed.
+    No account is required. Budgextra works entirely on your device. iCloud sync is enabled by default —
+    if you are signed in to iCloud, your data will automatically sync and back up across your Apple devices
+    using CloudKit. You can disable iCloud sync at any time in Settings if you prefer to keep everything on-device only.
 </p>
 
 <h3>How do I add bills, income, and expenses?</h3>
-
 <p>
-    Tap the <strong>Add</strong> button at the bottom of the main screen to add a bill, income,
-    or expense. Bills are recurring monthly items with a due date. Income is your monthly pay or
-    earnings. Expenses are one-off purchases or payments.
+    Tap the <strong>Add</strong> button at the bottom of the main screen to add a bill, income, or expense.
+    Bills are recurring monthly items with a due date. Income is your monthly pay or earnings.
+    Expenses are one-off purchases or payments.
 </p>
 
 <h3>How do I mark bills as paid?</h3>
-
 <p>
     Tap any unpaid bill to select it — the card will highlight green. You can select multiple bills.
     Then tap the tick button to confirm them as paid for the current month.
 </p>
 
 <h3>How do I edit or delete items?</h3>
-
 <p>
-    Long-press any bill or expense to see options to edit or delete it. You can also long-press
-    the Current Balance box to manually adjust your balance.
+    Long-press any bill or expense to see options to edit or delete it. You can also long-press the
+    <strong>Current Balance</strong> box to manually adjust your balance.
 </p>
 
 <h3>What is the overdraft feature?</h3>
-
 <p>
-    In Settings, you can enable an overdraft and set your overdraft limit. When your balance goes
-    negative, the app will show how much of your overdraft remains. If you exceed your overdraft
-    limit, the app displays your actual negative balance.
+    In Settings, you can enable an overdraft and set your overdraft limit. When your balance goes negative,
+    the app will show how much of your overdraft remains. If you exceed your overdraft limit, the app displays
+    your actual negative balance.
 </p>
 
 <h3>Does the balance carry over between months?</h3>
-
 <p>
     Yes. Any remaining balance from previous months automatically carries forward to the next month.
     For example, if you have £500 left at the end of January and receive £2,500 income in February,
@@ -101,43 +117,40 @@
 </p>
 
 <h3>How is my data handled?</h3>
-
 <p>
-    All your financial data is stored locally on your device. iCloud sync is enabled by default —
-    if you are signed in to iCloud, your data is also synced and backed up to your private iCloud
-    account using Apple's CloudKit. You can disable iCloud sync in Settings if you prefer to keep
-    your data on-device only. Please note that if iCloud sync is disabled and you uninstall the
-    app or lose your device, your data will be permanently lost. Your data is never sent to any
-    third-party servers. No one has access to your data except you.
+    All your financial data is stored locally on your device.
+</p>
+<p>
+    iCloud sync (CloudKit) is enabled by default — if you are signed in to iCloud, your data is also synced and backed up
+    to your private iCloud account. You can disable iCloud sync in Settings if you prefer to keep your data on-device only.
+</p>
+<p>
+    <strong>Important:</strong> If iCloud sync is disabled and you uninstall the app or lose your device, your data may be permanently lost.
+    Budgextra never sends your data to third-party servers. No one has access to your data except you.
     For full details, see our <a href="privacy-policy.html">Privacy Policy</a>.
 </p>
 
 <h3>Can I use the app offline?</h3>
-
 <p>
-    Yes. Budgextra works fully offline. All data is stored locally on your device. If iCloud sync
-    is enabled, syncing will occur automatically when an internet connection is available.
+    Yes. Budgextra works fully offline. All data is stored locally on your device. If iCloud sync is enabled,
+    syncing will occur automatically when an internet connection is available.
 </p>
 
 <h3>What is Face ID used for?</h3>
-
 <p>
     You can optionally enable Face ID in Settings to protect access to your financial data.
     When enabled, Face ID is required each time you open the app.
 </p>
 
 <h3>What devices are supported?</h3>
-
 <p>
-    Budgextra supports iPhone & iPad running iOS 18.0 or later, & Mac running MacOS 15.6 or later.
+    Budgextra supports iPhone and iPad running iOS/iPadOS 18.0 or later.
 </p>
 
 <h3>How do I report a bug?</h3>
-
 <p>
     Please email details and reproduction steps to:<br>
-    <strong>Email:</strong>
-    <a href="mailto:ferrraridave@icloud.com">ferrraridave@icloud.com</a>
+    <strong>Email:</strong> <a href="mailto:ferrraridave@icloud.com">ferrraridave@icloud.com</a>
 </p>
 
 </body>
